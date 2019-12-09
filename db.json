@@ -1,1 +1,6 @@
-
+[
+    {"productName":"Apple","price":150,"productDetails":"Details about Apple"},
+    {"productName":"Orange","price":50,"productDetails":"Details about Orange"},
+    {"productName":"Grapes","price":100,"productDetails":"Details about Grapes"},
+    {"productName":"Green Apple","price":250,"productDetails":"Details about GreenApple"}
+]
