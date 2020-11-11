@@ -1,16 +1,57 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --headerFontSize: 2rem;   
+    --headerPadding: 0.5rem; 
+    --footerFontSize: 1rem;
+    --footerPadding: 1rem;
 }
-ul{
-    list-style: none;
+
+html {
+    line-height: 1;
+    font-size: 62.5%;
 }
-li{
-    margin: 0 0 5px 0;
+
+body {
+    padding: 0;
 }
-.btn{
-    border: 0;
-    padding: 5px 10px;
-    color: rebeccapurple;
-    font-weight: bold;
-    cursor: pointer;
+        
+header {
+    background-color: lightgreen;
+    font-size: var(--headerFontSize);
+    padding: var(--headerPadding);
+    text-align: center;
+}
+
+main {
+    background-color: lightblue;
+    font-size: 1.5rem;
+    text-align: center;
+    height: calc(
+        100vh 
+        - var(--headerFontSize) 
+        - (2 * var(--headerPadding))
+        - var(--footerFontSize) 
+        - (2 * var(--footerPadding))
+    );
+    overflow-y: auto;
+}
+
+footer {
+    background-color: lightgreen;
+    font-size: var(--footerFontSize);
+    padding: var(--footerPadding);
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    border: 1px solid #000;
+    background-color: lightgreen;
+    margin: 0.4rem;
+}
+
+.product div {
+    padding: 5px;
+    width: calc(100% / 3);
 }
