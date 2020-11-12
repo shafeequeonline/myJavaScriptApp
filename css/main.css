@@ -55,3 +55,16 @@ footer {
     padding: 5px;
     width: calc(100% / 3);
 }
+
+.product div:last-child {
+    text-align: right;
+}
+
+.total div, .tax {
+    border: 1px solid #000;
+    background-color: lightgreen;
+    margin: 0.4rem;
+    text-align: right;
+    padding: var(--headerPadding);
+    font-weight: bold;
+}
