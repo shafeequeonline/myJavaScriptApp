@@ -53,7 +53,7 @@ footer {
 
 .product div {
     padding: 5px;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
 }
 
 .product div:last-child {
